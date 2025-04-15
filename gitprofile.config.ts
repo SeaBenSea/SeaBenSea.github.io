@@ -43,6 +43,12 @@ const CONFIG = {
             'https://sdmntprsouthcentralus.oaiusercontent.com/files/00000000-f3d4-61f7-a930-c61d77679261/raw?se=2025-04-15T11%3A05%3A14Z&sp=r&sv=2024-08-04&sr=b&scid=2902d8ed-3b71-5cc1-b048-d03f19bd636a&skoid=cbbaa726-4a2e-4147-932c-56e6e553f073&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-04-14T20%3A36%3A41Z&ske=2025-04-15T20%3A36%3A41Z&sks=b&skv=2024-08-04&sig=xZSCjq1p1%2BHyEztHISn4spcvs5QKcwT3f8ANKvdwxt0%3D',
           link: 'https://guess-who-online-seven.vercel.app/',
         },
+        {
+          title: 'Emotion Recognition in Turkish Speech',
+          description: 'HuBERT model trained on TurEV-DB to achieve speech emotion recognition (SER) in Turkish.',
+          imageUrl: 'https://huggingface.co/front/assets/huggingface_logo-noborder.svg',
+          link: 'https://huggingface.co/SeaBenSea/hubert-large-turkish-speech-emotion-recognition',
+        },
       ],
     },
   },
