@@ -83,7 +83,16 @@ const GitProfile = ({ config }: { config: Config }) => {
         });
         const repoData = repoResponse.data;
 
-        return repoData.items;
+        // order items as given in config file
+        const orderedItems = sanitizedConfig.projects.github.manual.projects
+          .map((project) =>
+            repoData.items.find(
+              (item: { full_name: string }) => item.full_name === project,
+            ),
+          )
+          .filter((item) => item !== undefined);
+
+        return orderedItems;
       }
     },
     [
