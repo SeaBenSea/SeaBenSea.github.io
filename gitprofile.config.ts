@@ -118,6 +118,20 @@ const CONFIG = {
   ],
   experiences: [
     {
+      company: 'Groupon',
+      position: 'QA Automation Engineer',
+      from: 'Nov 2025',
+      to: 'Present',
+      companyLink: 'https://www.groupon.com/',
+    },
+    {
+      company: 'Insider',
+      position: 'QA Automation Engineer',
+      from: 'June 2025',
+      to: 'Nov 2025',
+      companyLink: 'https://insiderone.com/',
+    },
+    {
       company: 'Toptal (Core Team)',
       position: 'QA Automation Engineer',
       from: 'May 2024',
